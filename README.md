@@ -23,3 +23,6 @@
 
 1. 启动项目访问http://localhost:8081/views/login.html 
 2. 账号密码登录：admin/admin
+
+#### 示例
+![enter image description here](https://images.gitee.com/uploads/images/2019/0610/162338_7d4019fa_451296.gif)
