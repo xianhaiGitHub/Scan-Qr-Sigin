@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tony.admin.web.mapper.SysUserMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.tony.admin.web.model.SysUser" id="BaseResultMap">
+        <result property="id" column="id"/>
+        <result property="loginName" column="login_name"/>
+        <result property="password" column="password"/>
+        <result property="name" column="name"/>
+        <result property="email" column="email"/>
+        <result property="phone" column="phone"/>
+        <result property="mobile" column="mobile"/>
+        <result property="enabled" column="enabled"/>
+        <result property="remarks" column="remarks"/>
+        <result property="createTime" column="create_time"/>
+        <result property="opTime" column="op_time"/>
+        <result property="delFlag" column="del_flag"/>
+    </resultMap>
+    
+    <sql id="selectColumns">
+  		select 
+  		id,   		
+  		login_name,   		
+  		password,   		
+  		name,   		
+  		email,   		
+  		phone,   		   		
+  		mobile,   		
+  		enabled,   		
+  		remarks,   		
+  		create_time,   		
+  		op_time,   		
+  		del_flag  		
+  		from sys_user a
+	</sql>
+	
+</mapper>
