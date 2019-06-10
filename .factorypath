@@ -17,6 +17,8 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/tk/mybatis/mapper-spring/1.1.5/mapper-spring-1.1.5.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/tk/mybatis/mapper-extra/1.1.5/mapper-extra-1.1.5.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/tk/mybatis/mapper-spring-boot-autoconfigure/2.1.5/mapper-spring-boot-autoconfigure-2.1.5.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/github/pagehelper/pagehelper/4.1.6/pagehelper-4.1.6.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/github/jsqlparser/jsqlparser/0.9.5/jsqlparser-0.9.5.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/boot/spring-boot-starter-aop/1.5.10.RELEASE/spring-boot-starter-aop-1.5.10.RELEASE.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE.jar" enabled="true" runInBatchMode="false"/>
@@ -84,5 +86,7 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/spring-test/4.3.14.RELEASE/spring-test-4.3.14.RELEASE.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/cn/hutool/hutool-all/4.5.0/hutool-all-4.5.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="PLUGIN" id="org.eclipse.jst.ws.annotations.core" enabled="true" runInBatchMode="false"/>
 </factorypath>

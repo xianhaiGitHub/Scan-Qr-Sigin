@@ -1,39 +1,25 @@
 # scan_login_demo
 
 #### 介绍
-{**以下是码云平台说明，您可以替换此简介**
-码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+如何设计系统的 App 扫码登录，详细讲解其中的实现原理，与具体代码的实现过程。带您思考在实现过程中的需要注意的点，以及需要掌握的技巧。
 
+主要内容：  
+ 1. App 扫码登录的原理，简单时序图
+ 2. Server 端如何完成数据处理
+ 3. PC 端是如何检测到 App 端已经完成了扫码操作
+ 4. App 端在过程中完成了哪些交互
+ 5. 附加：讲解前后端分离项目，如何实现验证码登录
+ 
 #### 软件架构
 软件架构说明
 
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 修改application.yml中的redis连接地址与password
+2. 修改application.yml中的mysql连接地址与username/password
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 启动项目访问http://localhost:8081/views/login.html 
+2. 账号密码登录：admin/admin
